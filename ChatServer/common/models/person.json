@@ -1,0 +1,21 @@
+{
+  "name": "Person",
+  "plural": "People",
+  "base": "Model",
+  "strict": false,
+  "idInjection": false,
+  "properties": {
+    "firstname": {
+      "type": "string",
+      "required": true
+    },
+    "lastname": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
